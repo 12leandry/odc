@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tableau de Bord des Tâches</title>
+    <!-- Link to external CSS file -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- Link to Google Fonts for better typography -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Page header with title -->
+    <header>
+        <h1>Gestionnaire de Tâches</h1>
+    </header>
+    <!-- Main content area -->
+    <main>
+        <!-- Form for adding new tasks -->
+        <form id="task-form">
+            <input type="text" id="task-name" placeholder="Nom de la tâche" required>
+            <input type="text" id="task-desc" placeholder="Description de la tâche" required>
+            <input type="date" id="task-deadline" required>
+            <button type="submit">Ajouter la tâche</button>
+        </form>
+        <!-- Container for displaying tasks -->
+        <div id="task-list"></div>
+    </main>
+    <!-- Link to external JavaScript file -->
+    <script src="script.js"></script>
+</body>
+</html>
